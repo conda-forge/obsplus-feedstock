@@ -38,8 +38,8 @@ test:
 
 about:
   home: https://github.com/niosh-mining/obsplus
-  license: LGPL-3.0
-  license_family: LGPL-3.0-or-later
+  license: LGPL-3.0-or-later
+  license_family: LGPL
   license_file: LICENSE.txt
   summary: An Pandas-Centric ObsPy Expansion Pack
   description: |
