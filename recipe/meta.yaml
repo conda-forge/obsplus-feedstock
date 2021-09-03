@@ -26,12 +26,12 @@ requirements:
     - python >=3.6
     - numpy >=1.13.0
     - obspy >=1.2.1
-    - pandas >=0.24.0
+    - pandas >=1.0
     - progressbar2
     - scipy
     - setuptools
     - pytables
-    - pydantic
+    - pydantic >=1.8.2
     - typing_extensions
 
 test:
