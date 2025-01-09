@@ -1,13 +1,13 @@
 {% set name = "obsplus" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "b73ce31c1b66427dc924d00fd2e7907834c7861a52b4237be4cb276e707cbcdf" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "bbd8864cf4e0ff9353214c05b0a20fd27e32741e26060c3eeb14003a11797a08" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -57,5 +57,5 @@ about:
 
 extra:
   recipe-maintainers:
-          - d-chambers
- 
+    - d-chambers
+
