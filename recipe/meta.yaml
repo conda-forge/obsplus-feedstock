@@ -1,6 +1,6 @@
 {% set name = "obsplus" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "b73ce31c1b66427dc924d00fd2e7907834c7861a52b4237be4cb276e707cbcdf" %}
+{% set version = "0.3.4" %}
+{% set sha256 = "9416e7d006d995b16cc302c2fb58dc758d65cbe6384807286e69509b6314e150" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }} {{ PYTHON }} -m pip install . -v
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -58,5 +58,5 @@ about:
 
 extra:
   recipe-maintainers:
-          - d-chambers
- 
+    - d-chambers
+
